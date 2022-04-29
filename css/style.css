@@ -1,23 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
 
-/*
-    GRUPO FONTES
-*/
+
 body{
     font-family: 'Oswald', sans-serif;
-    background-color:aliceblue; 
+    background-color:rgb(230, 233, 236); 
 }
 header{
     background-color:white;
     }
-
 ul{
     list-style:none;
 }
 nav li {
     display: inline-block;
-    margin: 0 0 0 15px;    
+    margin: 0 0 0 10px;    
 }
 
 footer {
@@ -28,5 +25,58 @@ color: #FFF;
 width: 100%;
 height: 100%;    
 text-align:center;
-line-height: 50%px;
+line-height: 25px;
 }
+
+
+#Cidade{
+    border: #ff0000 solid 2px;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+
+#Cidade span{
+margin-left: 50%;
+
+}
+
+#Cidade h3{
+    text-align: center;
+    
+}
+
+#Cidade p{
+    text-align: center;
+    
+}
+
+#Cidade a{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+#Tony h3{
+    color: red;
+}
+
+#Mag h3{
+
+    color: red;
+}
+
+#Mick h3{
+    color: red;
+}
+
+#Dave h3{
+    color: red;
+}
+
+
+    
