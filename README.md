@@ -9,4 +9,6 @@ Integrantes do grupo:
 
 95251 – Wallison Santos Ferreira 
 
- 
+WALLISON E EDUARDA - CSS
+
+MARIANA E JOÃO - HTML
