@@ -2,13 +2,20 @@
 
 
 
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    font-family: 'Oswald', sans-serif;
-    background-color:rgb(230, 233, 236); 
+    font-family: Arial, sans-serif;
+    background-color:#fff;
 }
 header{
-    background-color:white;
+    background-color:#fff;
     }
+
 ul{
     list-style:none;
 }
@@ -17,66 +24,215 @@ nav li {
     margin: 0 0 0 10px;    
 }
 
-footer {
-position:relative;
-bottom: 0;
-background-color: black;
-color: #FFF;
-width: 100%;
-height: 100%;    
-text-align:center;
-line-height: 25px;
-}
-
-
-#Cidade{
-    border: #ff0000 solid 2px;
-    background-color: #ff0000;
-    border-radius: 10px;
-}
-
-
-#Cidade span{
-margin-left: 50%;
-
-}
-
-#Cidade h3{
-    text-align: center;
-    
-}
-
-#Cidade p{
-    text-align: center;
-    
-}
-
-#Cidade a{
-    text-align: center;
-}
-
-
 a{
     text-decoration: none;
     color:black;
 }
 
-#Tony h3{
-    color: red;
+#cabecalho ul li a {
+    margin-right: 5px;
+    padding: 5px 20px;
+    color: #000;
+
+    cursor: pointer;
 }
 
-#Mag h3{
+#cabecalho ul li a:hover {
+    color: #00BFFF;
+}
+/*cidade */
 
-    color: red;
+#cidade{
+    background-color: #E32A32;
+    border: #E32A32 solid 20px;
+    border-radius: 20px;
+    margin-top: 5px;
 }
 
-#Mick h3{
-    color: red;
+
+#cidade span img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#Dave h3{
-    color: red;
+#cidade h3{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
 }
 
+#cidade p{
+    text-align: center;
+    color: #fff;
+}
 
+#cidade a{
+    padding: 10px 30px;
+    margin: 10px;
+    border: #fff solid 1px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.2rem;
+
+}
+
+/*cidade */
+
+.colaboradores{
+    margin-top: 20px;
+    margin-left: 10%; 
+    margin-bottom: 20px; 
+}
+
+#tony{
+    float: left;
+    width: 20%;
+    margin-right:20px;
+    margin-left: 10px;
+    background-color: #dddddd;
+}
+
+#tony-img{
+    border-radius: 80px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tony h3{
+    color: red;
+    text-align: center;
+}
+#tony p{
+    text-align: center;
+    font-size: 14px;
+}
+
+#mag{
+    float: left;
+    width: 20%;
+    margin-right:20px;
+    margin-left: 10px;
+    background-color: #dddddd;
+}
+
+#mag-img{
+    border-radius: 80px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#mag h3{
+    color: red;
+    text-align: center;
+}
+#mag p{
+    text-align: center;
+    font-size: 14px;
+}
+
+#mick{
+    float: left;
+    width: 20%;
+    margin-right:20px;
+    margin-left: 10px;
+    background-color: #dddddd;
+    margin-bottom: 20px; 
+}
+
+#mick-img{
+    border-radius: 80px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#mick h3{
+    color: red;
+    text-align: center;
+}
+#mick p{
+    text-align: center;
+    font-size: 14px;
+}
+
+#dave{
+    float: left;
+    width: 20%;
+    margin-right:20px;
+    margin-left: 10px;
+    background-color: #dddddd;
+}
+
+#dave-img{
+    border-radius: 80px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#dave h3{
+    color: red;
+    text-align: center;
+}
+#dave p{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+#redes a img{
+    width: 15%;
+    display:inline-block;
+    margin-left: 15%;
+    margin-right: auto;
+    
+}
+
+footer {
+    margin-top: 30%;
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+    height: 100%;    
+    text-align:center;
+    line-height: 25px;
+    }
+
+
+#footer-1 a{
+        color: #fff;
+    }
